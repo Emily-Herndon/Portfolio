@@ -13,7 +13,8 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main>
-				<h1>Portfolio</h1>
+				<h1>Emily Herndon</h1>
+				<h2>Skills</h2>
 			</main>
 		</div>
 	)
