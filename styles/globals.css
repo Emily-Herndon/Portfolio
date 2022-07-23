@@ -1,12 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* element selectors that apply to everything go here */
+@layer base {
+	body {
+		@apply bg-[#001d3d] text-[#ffc300];
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-bold;
+	}
+	h1 {
+		@apply text-4xl sm:text-5xl md:text-6xl;
+	}
+	h2 {
+		@apply text-2xl sm:text-3xl md:text-4xl;
+	}
+	li {
+		@apply cursor-pointer;
+	}
+	button {
+		@apply shadow-xl shadow-black rounded-xl uppercase bg-gradient-to-r from-[#000814] to-[#003566];
+	}
+}
 html,
 body {
 	padding: 0;
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	background-color: rgb(35, 34, 34);
-	color: rgb(0, 132, 139);
 }
 
 a {

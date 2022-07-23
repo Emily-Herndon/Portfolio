@@ -9,7 +9,7 @@ export default function About() {
 			{/* can also do multiple className by "className={[styles.extraGreen, styles.bigFont].join(" ")}" */}
 			{/*className={`${styles.extraGreen} ${styles.bigFont}`}*/}
 			<p >
-				I am a software engineer currently living in Portland Oregon. 
+				I am a software engineer currently living in Portland Oregon.
 			</p>
 			<div>
 				{/* <style jsx>{`
@@ -28,7 +28,7 @@ export default function About() {
 
 			{/* loading an image locally */}
 			<Image
-				src="/IMG_1365.jpg"
+				src="/emily-herndon.jpg"
 				alt="me wearing sunglasses with the picturesque columbia river gorge behind me"
 				width={250}
 				height={200}
