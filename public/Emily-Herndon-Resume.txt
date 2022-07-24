@@ -1,0 +1,37 @@
+﻿Emily Herndon
+Full Stack Software Engineer
+Portland, Oregon | (305) 338-6626 | Email | GitHub | LinkedIn
+
+
+I am a software engineer with an intellectual curiosity, a love for learning, and the ability to work both independently and collaboratively. I am passionate about developing accessible products to better people’s lives and enjoy solving complex puzzles. I believe software engineering is a conduit to create a positive and meaningful impact.  I strive to make products with accessible, unique interfaces and adaptability for the everchanging future.
+SKILLS
+* Programming Languages: JavaScript, HTML5, CSS, mongoose, Python
+* Frameworks & Databases:  Express, Node, EJS, SQL, Postgres, Axios, React, MongoDB, Next.js
+* Tools: RESTful API’s, Git, GitHub, Sequelize, Object Oriented Programming, Responsive Design, bcrypt
+
+
+RELEVANT EXPERIENCE
+Software Engineering Immersive | General Assembly | Remote | April 2022 – July 2022
+Successfully completed 500+ hours of expert led instruction in web development, databases, and frameworks and hands on learning of fullstack development fundamentals and the industry's most in demand technologies. Developed projects, including:
+* Cat Scraps: Built with HTML5, CSS, JavaScript, Canvas [GitHub Repository] [Deployed Link]
+   * Play as a hungry cat trying to catch all the food scraps the humans drop. Just avoid the cheese!
+* The Biblio-Files: Built with EJS, SQL, Express, Bootstrap, & Sequelize [GitHub Repository] [Deployed Link]
+   * Keep track of all the books you’ve read or want to read with The Bibliofiles. 
+* BugOut: Built with React, Mongoose, Tailwind, MongoDB, & Express as part of a group [Server GitHub Repository]  [Client GitHub Repository] [Deployed Link]
+   * A project management/bug tracking tool for a development team
+* Ensemble: Built with React, Mongoose, Tailwind, Express, MongoDB, & Cloudinary as part of a group [Server GitHub Repository] [Client GitHub Repository] [Deployed Link]
+   * A website to virtually store your closet, create outfits, and plan what to wear, from anywhere!
+
+
+Career Break | Health & Well-Being | June 2015 - March 2022
+* Career break to focus on physical health
+
+
+Accounts Payable Clerk | Kerry’s Nursery | Miami | August 2009–June 2015
+* Inputted detailed data entry for crops in accordance with FDA guidelines
+* Reconciled 150-200 accounts per week
+* Utilized problem solving skills to overhaul and redesign the method of organizing records 
+
+
+EDUCATION
+General Assembly | Software Engineering Immersive | Remote | April 2022-July 2022

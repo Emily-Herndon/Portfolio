@@ -26,15 +26,15 @@ export default function Projects() {
                             width={300}
                             height={200}
                         />
-                        <h3 className="py-4 m-auto max-w-[70%]">Are you an avid reader? Do you have trouble keeping track of all the books you`ve read and the books you want to read? Try the Bibliofiles!</h3>
-                        <p>Built with EJS, SQL, Express, Bootstrap, and Sequelize</p>
+                        <h3 className="py-4 m-auto max-w-[70%]">Are you an avid reader? Do you have trouble keeping track of all the books you&apos;ve read and the books you want to read? Try the Bibliofiles!</h3>
+                        <p>Built with EJS, postgres, SQL, Express, Node, Bootstrap, and Sequelize</p>
                         <p><a href="https://github.com/Emily-Herndon/The-Bibliofiles" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://the-bibliofiles.herokuapp.com/" target="_blank" rel="noopener noreferrer">Try it!</a></p>
                     </div>
                     <div>
                         <h2>BugOut</h2>
                         <Image
                             src="/images/projects/bugout.png"
-                            alt="A screenshot of a manger`s profile with their projects displayed"
+                            alt="A screenshot of a manger&apos;s profile with their projects displayed"
                             width={300}
                             height={200}
                         />
@@ -46,12 +46,12 @@ export default function Projects() {
                         <h2>Ensemble</h2>
                         <Image
                             src="/images/projects/ensemble.png"
-                            alt="A screenshot of a profile page on ensemble whith a profile picture and a few pieces of clothing"
+                            alt="A screenshot of a profile page on ensemble with a profile picture and a few pieces of clothing"
                             width={300}
                             height={200}
                         />
                         <h3 className="py-4 m-auto max-w-[70%]">A website to virtually store your closet, create outfits, and plan what to wear, from anywhere!</h3>
-                        <p>Built with React, Mongoose, Tailwind, Express, MongoDB, & Cloudinary</p>
+                        <p>Built with React, Mongoose, Tailwind, Express, MongoDB, & Cloudinary as part of a group</p>
                         <p><a href="https://github.com/Emily-Herndon/Ensemble-Client" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://ensemble-closet.netlify.app/register" target="_blank" rel="noopener noreferrer">Try it!</a></p>
                     </div>
                 </div>

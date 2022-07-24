@@ -4,6 +4,7 @@ import Footer from "../components/footer"
 import Main from "./main"
 import About from "./about"
 import Projects from "./projects"
+import Skills from "./skills"
 import { useState } from "react"
 
 function MyApp({ Component, pageProps }) {
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
 			{/* <Component {...pageProps} /> */}
 			<Main />
 			<About />
+			<Skills />
 			<Projects />
 			<Footer />
 		</>
