@@ -9,7 +9,7 @@ export default function About() {
 					{/* can also do multiple className by "className={[styles.extraGreen, styles.bigFont].join(" ")}" */}
 					{/*className={`${styles.extraGreen} ${styles.bigFont}`}*/}
 					<p className="py-4 m-auto max-w-[70%]">
-						My name is Emily Herndon. I am originally from Miami Florida but have been living in Portland Oregon since 2018. I`ve always had a connection to technology.
+						My name is Emily Herndon. I am originally from Miami Florida but have been living in Portland Oregon since 2018. I&apos;ve always had a connection to technology.
 					</p>
 				</div>
 			</div>
