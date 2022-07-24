@@ -1,18 +1,20 @@
-// special SSR image component
-import Image from "next/image"
 import styles from "../styles/About.module.css"
 
 export default function About() {
 	return (
-		<div>
-			<h1>About Me</h1>
-			{/* can also do multiple className by "className={[styles.extraGreen, styles.bigFont].join(" ")}" */}
-			{/*className={`${styles.extraGreen} ${styles.bigFont}`}*/}
-			<p >
-				I am a software engineer currently living in Portland Oregon.
-			</p>
-			<div>
-				{/* <style jsx>{`
+		<div id="about" className='w-full my-80 text-center'>
+			<div className='max-w-[1240px] w-full h-full mx-auto my-auto p-2 flex justify-center items-center'>
+				<div>
+					<h1>About Me</h1>
+					{/* can also do multiple className by "className={[styles.extraGreen, styles.bigFont].join(" ")}" */}
+					{/*className={`${styles.extraGreen} ${styles.bigFont}`}*/}
+					<p className='py-4 m-auto max-w-[70%]'>
+						My name is Emily Herndon. I am originally from Miami Florida but have been living in Portland Oregon since 2018. I've always had a connection to technology.
+					</p>
+				</div>
+			</div>
+
+			{/* <style jsx>{`
 					.orangeText {
 						color: orange;
 					}
@@ -20,19 +22,14 @@ export default function About() {
 						font-size: 70px;
 					}
 				`}</style> */}
-				{/*className="orangeText"*/}
-				{/* <p >
+			{/*className="orangeText"*/}
+			{/* <p >
 					I love to code and would love to code for your company!
 				</p> */}
-			</div>
+
 
 			{/* loading an image locally */}
-			<Image
-				src="/emily-herndon.jpg"
-				alt="me wearing sunglasses with the picturesque columbia river gorge behind me"
-				width={250}
-				height={200}
-			/>
+
 
 			{/* this works too! */}
 			{/* <img src="/IMG_8941.jpg" alt="sleepy opal" /> */}

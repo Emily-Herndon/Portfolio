@@ -4,7 +4,7 @@
 /* element selectors that apply to everything go here */
 @layer base {
 	body {
-		@apply bg-[#001d3d] text-[#ffc300];
+		@apply bg-[#E0E1DD] text-[#0D1B2A];
 	}
 	h1,
 	h2,
@@ -24,7 +24,7 @@
 		@apply cursor-pointer;
 	}
 	button {
-		@apply shadow-xl shadow-black rounded-xl uppercase bg-gradient-to-r from-[#000814] to-[#003566];
+		@apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#415A77] to-[#778DA9];
 	}
 }
 html,
@@ -42,4 +42,7 @@ a {
 
 * {
 	box-sizing: border-box;
+}
+#navbar {
+	z-index: 9999;
 }
