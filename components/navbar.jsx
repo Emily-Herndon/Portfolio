@@ -5,7 +5,7 @@ import React, { useState } from "react"
 // built in link from next.js
 import Link from "next/link"
 
-export default function navbar() {
+export default function Navbar() {
 	const [mobileNavbar, setMobileNavbar] = useState(false)
 
 	const handleMobileNav = () => {

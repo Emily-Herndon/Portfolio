@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function projects() {
+export default function Projects() {
     return (
         <div id="projects" className="w-full text-center">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
