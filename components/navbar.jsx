@@ -1,7 +1,7 @@
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
-import { useState } from "react"
+import React, { useState } from "react"
 // built in link from next.js
 import Link from "next/link"
 
