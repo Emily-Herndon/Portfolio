@@ -41,7 +41,7 @@ export default function footer() {
             <span> | </span>
             <a>
                 <Image
-                    src="/../public/images/assets/txt.png"
+                    src="/images/assets/txt.png"
                     alt="resumé txt"
                     width={65}
                     height={65}
