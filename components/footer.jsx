@@ -5,7 +5,7 @@ export default function footer() {
         <div id="contact" className={styles.footer}>
             <a href="https://github.com/Emily-Herndon" target="_blank" rel="noopener noreferrer">
                 <Image
-                    src="/../public/images/assets/github.png"
+                    src="/images/assets/github.png"
                     alt="github logo"
                     width={75}
                     height={75}
@@ -14,7 +14,7 @@ export default function footer() {
             <span> | </span>
             <a href="https://www.linkedin.com/in/emily-v-herndon/" target="_blank" rel="noopener noreferrer">
                 <Image
-                    src="/../public/images/assets/linkedin.png"
+                    src="/images/assets/linkedin.png"
                     alt="linkedin logo"
                     width={50}
                     height={50}
@@ -23,7 +23,7 @@ export default function footer() {
             <span> | </span>
             <a>
                 <Image
-                    src="/../public/images/assets/email.png"
+                    src="/images/assets/email.png"
                     alt="email"
                     width={65}
                     height={65}
@@ -32,7 +32,7 @@ export default function footer() {
             <span> | </span>
             <a>
                 <Image
-                    src="/../public/images/assets/pdf.png"
+                    src="/images/assets/pdf.png"
                     alt="resumé pdf"
                     width={65}
                     height={65}
