@@ -3,77 +3,151 @@ import React from 'react'
 
 export default function Skills() {
     return (
-        <div id="skills" className="w-full h-screen text-center">
-            <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-                <div>
-                    <h1>My Skills</h1>
-                    <div>
-                        <Image
-                            src='/images/skills/html.png'
-                            alt='html5'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/css.png'
-                            alt='css'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/javascript.png'
-                            alt='javascript'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/python.png'
-                            alt='python'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/react.png'
-                            alt='react'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/node-js.png'
-                            alt='node.js'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/next-js.png'
-                            alt='next.js'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/mongoDB.png'
-                            alt='mongoDB'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/postgreSQL.png'
-                            alt='postgreSQL'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/bootstrap.png'
-                            alt='bootstrap'
-                            width={50}
-                            height={50}
-                        />
-                        <Image
-                            src='/images/skills/tailwind.png'
-                            alt='tailwind'
-                            width={50}
-                            height={50}
-                        />
+        <div id="skills" className="w-full lg:h-screen p-2">
+            <div className="max-w-[1240px] h-full mx-auto flex flex-col justify-center">
+                <h1>My Skills</h1>
+                <div className='grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/html.png'
+                                    alt='html5'
+                                    width={50}
+                                    height={50}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/css.png'
+                                    alt='css3'
+                                    width={65}
+                                    height={65}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/javascript.png'
+                                    alt='javascript'
+                                    width={65}
+                                    height={65}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-7 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/python.png'
+                                    alt='python'
+                                    width={150}
+                                    height={50}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/react.png'
+                                    alt='react'
+                                    width={75}
+                                    height={75}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-3 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/node-js.png'
+                                    alt='node.js'
+                                    width={90}
+                                    height={90}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-7 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/next-js.png'
+                                    alt='next.js'
+                                    width={80}
+                                    height={50}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/mongoDB.png'
+                                    alt='mongoDB'
+                                    width={75}
+                                    height={75}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/postgreSQL.png'
+                                    alt='postgreSQL'
+                                    width={75}
+                                    height={75}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-7 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/bootstrap.png'
+                                    alt='bootstrap'
+                                    width={195}
+                                    height={75}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='p-8 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image
+                                    src='/images/skills/tailwind.png'
+                                    alt='tailwind'
+                                    width={1250}
+                                    height={350}
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
