@@ -12,7 +12,7 @@ export default function Projects() {
                     <p className="tracking-widest text-gray-700 text-xs">Things I&apos;ve Built</p>
                     <h1>Main Projects</h1>
                     <div className="grid md:grid-cols-2 gap-8">
-                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                             <Image
                                 src={catScraps}
                                 alt="A screenshot of the starting page for the cat scraps game"
@@ -26,7 +26,7 @@ export default function Projects() {
                             </div>
                         </div>
                         <div >
-                            <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+                            <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                                 <Image
                                     src={bibliofiles}
                                     alt="A screenshot of a profile page on the bibliofiles that has several books saved with different tags"
@@ -40,7 +40,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                             <Image
                                 src={bugOut}
                                 alt="A screenshot of a manger&apos;s profile with their projects displayed"
@@ -53,7 +53,7 @@ export default function Projects() {
                                 <p className=" absolute  left-[50%] translate-x-[-50%] text-center bg-gradient-to-b from-blue-700 via-blue-800 to-gray-900 text-white rounded-xl w-[50%]"><a href="https://github.com/Emily-Herndon/BugOut-Client" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://p3-bugout.netlify.app/login" target="_blank" rel="noopener noreferrer">Try it!</a></p>
                             </div>
                         </div>
-                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                             <Image
                                 src={ensemble}
                                 alt="A screenshot of a profile page on ensemble with a profile picture and a few pieces of clothing"

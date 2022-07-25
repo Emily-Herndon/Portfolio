@@ -17,7 +17,7 @@
 	flex: 1;
 	margin-top: 5rem;
 	padding: 0.5rem 0;
-	border-top: 1px solid #eaeaea;
+	/* border-top: 1px solid black; */
 	justify-content: center;
 	align-items: center;
 }

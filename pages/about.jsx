@@ -2,9 +2,8 @@ import styles from "../styles/About.module.css"
 
 export default function About() {
 	return (
-		<div id="about" className="w-full p-20 my-40 text-center bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600">
-			<div className="max-w-[1240px] w-full h-full mx-auto my-auto p-2 flex justify-center items-center">
-
+		<div className="w-full p-20 my-40 text-center ">
+			<div id="about" className="max-w-[1240px] w-full h-auto p-8 rounded-xl mx-auto my-auto flex justify-center items-center shadow-xl shadow-black">
 				<div>
 					<p className="tracking-widest text-gray-700 text-xs">Who I Am</p>
 					<h1>About Me</h1>

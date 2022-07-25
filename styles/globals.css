@@ -8,7 +8,12 @@
 		background: no-repeat cover;
 	} */
 	body {
-		/* background-image: linear-gradient(lightblue, darkblue, darkgray); */
+		background-image: linear-gradient(
+			to right top,
+			rgb(136, 19, 55),
+			rgb(88, 28, 135),
+			rgb(8, 145, 178)
+		);
 		/* background: gradient-to-t from-blue-700 via-blue-800 to-gray-900; */
 	}
 	h1,
@@ -54,8 +59,9 @@ a {
 /* #main {
 	background-image: url("/starry-night-sky.png");
 	background: cover;
-}
-#about {
-	background-image: url();
-	background: no-repeat, fill;
 } */
+#main,
+#skills,
+#about {
+	background-color: rgba(226, 232, 240, 0.25);
+}

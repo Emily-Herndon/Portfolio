@@ -12,9 +12,9 @@ export default function Navbar() {
 		setMobileNavbar(!mobileNavbar)
 	}
 	return (
-		<div id="navbar" className="fixed top-0 w-full h-20 shadow-xl z-[100] nav bg-white">
+		<div id="navbar" className="fixed top-0 w-full h-20 shadow-xl z-[100] nav bg-gradient-to-b from-gray-700 via-gray-900 to-black">
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-				<span id="initials" className="self-center text-2xl font-semibold whitespace-nowrap ">EH</span>
+				<span id="initials" className="self-center text-2xl font-semibold whitespace-nowrap text-white">EH</span>
 				<div>
 					<ul className="hidden md:flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
 						<Link href="/#main" >
@@ -49,46 +49,46 @@ export default function Navbar() {
 				</div>
 			</div>
 			<div className={mobileNavbar ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""}>
-				<div className={mobileNavbar ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#E0E1DD] p-10 ease-in duration-500" : "fixed left-[-200%] top-0 p-10 ease-in duration-500"}>
+				<div className={mobileNavbar ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-b from-gray-600 via-gray-700 to-black p-10 ease-in duration-500" : "fixed left-[-200%] top-0 p-10 ease-in duration-500"}>
 					<div>
 						<div className="flex w-full items-center justify-between">
-							<span id="initials" className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">EH</span>
-							<div onClick={handleMobileNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+							<span id="initials" className="self-center text-xl font-semibold whitespace-nowrap text-white">EH</span>
+							<div onClick={handleMobileNav} className="rounded-full shadow-lg shadow-black p-3 cursor-pointer">
 								<AiOutlineClose />
 							</div>
 						</div>
 						<div className="border-b border-[#0D1B2A] my-4">
-							<p className="w-[85%] md:w-[90%] py-4">Something inspirational/attention grabbing to make them want to hire me</p>
+							<p className="w-[85%] md:w-[90%] py-4 text-white">I want to work with you to build something great!</p>
 						</div>
 					</div>
 					<div className="py-4 flex flex-col">
 						<ul>
 							<Link href="/#main">
-								<li onClick={handleMobileNav} className="py-4 text-sm">Home</li>
+								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Home</li>
 							</Link>
 							<Link href="/#about">
-								<li onClick={handleMobileNav} className="py-4 text-sm">About Me</li>
+								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">About Me</li>
 							</Link>
 							<Link href="/#skills">
-								<li onClick={handleMobileNav} className="py-4 text-sm">Skills</li>
+								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Skills</li>
 							</Link>
 							<Link href="/#projects">
-								<li onClick={handleMobileNav} className="py-4 text-sm">Projects</li>
+								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Projects</li>
 							</Link>
 						</ul>
-						<div className="pt-35">
-							<p className="tracking-widest">Let&apos;s Connect!</p>
+						<div className="mt-8 pt-50">
+							<p className="tracking-widest  text-white">Let&apos;s Connect!</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+								<div className="rounded-full shadow-lg bg-gray-700 shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
 									<FaLinkedinIn />
 								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+								<div className="rounded-full shadow-lg bg-gray-700 shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
 									<FaGithub />
 								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+								<div className="rounded-full shadow-lg bg-gray-700 shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
 									<AiOutlineMail />
 								</div>
-								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+								<div className="rounded-full shadow-lg bg-gray-700 shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
 									<BsFillPersonLinesFill />
 								</div>
 							</div>
