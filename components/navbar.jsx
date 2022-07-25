@@ -76,7 +76,7 @@ export default function Navbar() {
 								<li onClick={handleMobileNav} className="py-4 text-sm">Projects</li>
 							</Link>
 						</ul>
-						<div className="pt-40">
+						<div className="pt-35">
 							<p className="tracking-widest">Let&apos;s Connect!</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
 								<div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
