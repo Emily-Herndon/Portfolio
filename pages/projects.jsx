@@ -9,7 +9,7 @@ export default function Projects() {
         <div id="projects" className="w-full ">
             <div className="max-w-[1240px] mx-auto px-2 py-16">
                 <div>
-                    <p className="tracking-widest">Things I've Built</p>
+                    <p className="tracking-widest">Things I&apos;ve Built</p>
                     <h1>Main Projects</h1>
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
