@@ -3,8 +3,13 @@
 @tailwind utilities;
 /* element selectors that apply to everything go here */
 @layer base {
+	/* body {
+		background-image: url("/starry-night-sky.png");
+		background: no-repeat cover;
+	} */
 	body {
-		@apply bg-[#E0E1DD] text-[#0D1B2A];
+		/* background-image: linear-gradient(lightblue, darkblue, darkgray); */
+		/* background: gradient-to-t from-blue-700 via-blue-800 to-gray-900; */
 	}
 	h1,
 	h2,
@@ -46,3 +51,11 @@ a {
 #navbar {
 	z-index: 9999;
 }
+/* #main {
+	background-image: url("/starry-night-sky.png");
+	background: cover;
+}
+#about {
+	background-image: url();
+	background: no-repeat, fill;
+} */

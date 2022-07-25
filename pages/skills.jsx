@@ -5,6 +5,7 @@ export default function Skills() {
     return (
         <div id="skills" className="w-full lg:h-screen p-2">
             <div className="max-w-[1240px] h-full mx-auto flex flex-col justify-center">
+                <p className="tracking-widest text-gray-700 text-xs">What I Know</p>
                 <h1>My Skills</h1>
                 <div className='grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8'>
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
