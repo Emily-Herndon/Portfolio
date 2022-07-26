@@ -6,10 +6,10 @@ import ensemble from "/public/images/projects/ensemble.png"
 
 export default function Projects() {
     return (
-        <div id="projects" className="w-full ">
-            <div className="max-w-[1240px] mx-auto px-2 py-16">
-                <div>
-                    <p className="tracking-widest text-gray-700 text-xs">Things I&apos;ve Built</p>
+        <div className="w-full ">
+            <div className="max-w-[1240px]  mx-auto px-2 py-16 ">
+                <div id="projects" className="text-center rounded-xl p-8 justify-center items-center shadow-xl shadow-black">
+                    <p className="tracking-widest text-gray-900 text-xs">Things I&apos;ve Built</p>
                     <h1>Main Projects</h1>
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">

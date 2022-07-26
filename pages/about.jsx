@@ -2,8 +2,8 @@ import styles from "../styles/About.module.css"
 
 export default function About() {
 	return (
-		<div className="w-full p-20 my-40 text-center ">
-			<div id="about" className="max-w-[1240px] w-full h-auto p-8 rounded-xl mx-auto my-auto flex justify-center items-center shadow-xl shadow-black">
+		<div className="w-full p-20 my-40 text-center">
+			<div id="about" className="max-w-[1240px] w-full h-auto p2 rounded-xl mx-auto my-auto justify-center items-center shadow-xl shadow-black">
 				<div>
 					<p className="tracking-widest text-gray-700 text-xs">Who I Am</p>
 					<h1>About Me</h1>
