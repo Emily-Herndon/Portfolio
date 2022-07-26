@@ -16,7 +16,7 @@ export default function Projects() {
                             <Image
                                 src={catScraps}
                                 alt="A screenshot of the starting page for the cat scraps game"
-                                className="rounded-xl group-hover:opacity-10"
+                                className="rounded-xl group-hover:opacity-5"
                             />
                             <div className="hidden group-hover:block absolute top-[45%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-xs lg:text-base">
                                 <h2>Cat Scraps</h2>
