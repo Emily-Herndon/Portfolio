@@ -17,22 +17,22 @@ export default function Navbar() {
 				<span id="initials" className="self-center text-2xl font-semibold whitespace-nowrap text-white">EH</span>
 				<div>
 					<ul className="hidden md:flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-						<Link href="/#main" >
+						<Link href="/#main-nav" >
 							<li className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
 								Home
 							</li>
 						</Link>
-						<Link href="/#about">
+						<Link href="/#about-nav">
 							<li className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								About Me
 							</li>
 						</Link>
-						<Link href="/#skills">
+						<Link href="/#skills-nav">
 							<li className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								Skills
 							</li>
 						</Link>
-						<Link href="/#projects">
+						<Link href="/#projects-nav">
 							<li className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								Projects
 							</li>
@@ -44,7 +44,7 @@ export default function Navbar() {
 						</Link>
 					</ul>
 				</div>
-				<div onClick={handleMobileNav} className="md:hidden">
+				<div onClick={handleMobileNav} className="md:hidden bg-gray-700 p-1 rounded-md">
 					<AiOutlineMenu size={25} />
 				</div>
 			</div>
@@ -63,16 +63,16 @@ export default function Navbar() {
 					</div>
 					<div className="py-4 flex flex-col">
 						<ul>
-							<Link href="/#main">
+							<Link href="/#main-nav">
 								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Home</li>
 							</Link>
-							<Link href="/#about">
+							<Link href="/#about-nav">
 								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">About Me</li>
 							</Link>
-							<Link href="/#skills">
+							<Link href="/#skills-nav">
 								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Skills</li>
 							</Link>
-							<Link href="/#projects">
+							<Link href="/#projects-nav">
 								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Projects</li>
 							</Link>
 						</ul>
