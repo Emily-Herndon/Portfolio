@@ -17,6 +17,7 @@ export default function Skills() {
                                         alt='html5'
                                         width={50}
                                         height={50}
+                                        className="place-self-center"
                                     />
                                 </div>
                             </div>
