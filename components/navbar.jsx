@@ -80,16 +80,16 @@ export default function Navbar() {
 							<p className="tracking-widest  text-white">Let&apos;s Connect!</p>
 							<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
 								<div className="rounded-full shadow-lg bg-gray-700 shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<FaLinkedinIn />
+									<a href="https://github.com/Emily-Herndon" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
 								</div>
 								<div className="rounded-full shadow-lg bg-gray-700 shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<FaGithub />
+									<a href="https://www.linkedin.com/in/emily-v-herndon/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
 								</div>
 								<div className="rounded-full shadow-lg bg-gray-700 shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<AiOutlineMail />
+									<a href="mailto:emilyvherndon@gmail.com"><AiOutlineMail /></a>
 								</div>
 								<div className="rounded-full shadow-lg bg-gray-700 shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-									<BsFillPersonLinesFill />
+									<a href="/Emily-Herndon-Resume.pdf" target="_blank" rel="noopener noreferrer"><BsFillPersonLinesFill /></a>
 								</div>
 							</div>
 						</div>
