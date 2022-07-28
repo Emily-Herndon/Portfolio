@@ -6,13 +6,13 @@ import ensemble from "/public/images/projects/ensemble.png"
 
 export default function Projects() {
     return (
-        <div id="projects-nav" className="w-full ">
+        <div id="projects-nav" className="w-full mt-40">
             <div className="max-w-[1240px]  mx-auto px-2 py-16 ">
                 <div id="projects" className="text-center rounded-xl px-2 py-4 lg:p-8 justify-center items-center shadow-xl shadow-black">
-                    <p className="tracking-widest text-gray-900 text-xs">Things I&apos;ve Built</p>
+                    <p className="tracking-widest text-gray-700 text-xs">Things I&apos;ve Built</p>
                     <h1>Main Projects</h1>
-                    <div className="grid md:grid-cols-2 gap-8">
-                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-4 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+                    <div className="grid md:grid-cols-2 gap-8 mt-6">
+                        <div className="projects relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-4 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                             <Image
                                 src={catScraps}
                                 alt="A screenshot of the starting page for the cat scraps game"
@@ -26,7 +26,7 @@ export default function Projects() {
                             </div>
                         </div>
                         <div >
-                            <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-5 md:py-6 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+                            <div className="projects relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-5 md:py-6 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                                 <Image
                                     src={bibliofiles}
                                     alt="A screenshot of a profile page on the bibliofiles that has several books saved with different tags"
@@ -40,7 +40,7 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
-                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-4 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+                        <div className="projects relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-4 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                             <Image
                                 src={bugOut}
                                 alt="A screenshot of a manger&apos;s profile with their projects displayed"
@@ -50,10 +50,10 @@ export default function Projects() {
                                 <h2>BugOut</h2>
                                 <h3 className="py-1 m-auto">A project and bug tracker tool built with a development team in mind.</h3>
                                 <p>Built with React, Mongoose, Tailwind, MongoDB, and Express as part of a group</p>
-                                <p className=" absolute  left-[50%] translate-x-[-50%] text-center bg-gradient-to-b from-blue-700 via-blue-800 to-gray-900 text-white rounded-xl w-[50%]"><a href="https://github.com/Emily-Herndon/BugOut-Client" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://p3-bugout.netlify.app/login" target="_blank" rel="noopener noreferrer">Try it!</a></p>
+                                <p className="absolute items-center left-[50%] translate-x-[-50%] text-center bg-gradient-to-b from-blue-700 via-blue-800 to-gray-900 text-white rounded-xl w-[50%]"><a href="https://github.com/Emily-Herndon/BugOut-Client" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://p3-bugout.netlify.app/login" target="_blank" rel="noopener noreferrer">Try it!</a></p>
                             </div>
                         </div>
-                        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-5 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+                        <div className="projects relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-5 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                             <Image
                                 src={ensemble}
                                 alt="A screenshot of a profile page on ensemble with a profile picture and a few pieces of clothing"
@@ -63,7 +63,7 @@ export default function Projects() {
                                 <h2>Ensemble</h2>
                                 <h3 className="py-1 m-auto">A website to virtually store your closet, create outfits, and plan what to wear, from anywhere!</h3>
                                 <p>Built with React, Mongoose, Tailwind, Express, MongoDB, & Cloudinary as part of a group</p>
-                                <p className=" absolute  left-[50%] translate-x-[-50%] text-center bg-gradient-to-b from-blue-700 via-blue-800 to-gray-900 text-white rounded-xl w-[50%]"><a href="https://github.com/Emily-Herndon/Ensemble-Client" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://ensemble-closet.netlify.app/register" target="_blank" rel="noopener noreferrer">Try it!</a></p>
+                                <p className="absolute left-[50%] translate-x-[-50%] text-center bg-gradient-to-b from-blue-700 via-blue-800 to-gray-900 text-white rounded-xl w-[50%]"><a href="https://github.com/Emily-Herndon/Ensemble-Client" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://ensemble-closet.netlify.app/register" target="_blank" rel="noopener noreferrer">Try it!</a></p>
                             </div>
                         </div>
                     </div>

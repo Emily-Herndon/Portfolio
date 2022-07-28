@@ -60,6 +60,10 @@ a {
 	background-image: url("/starry-night-sky.png");
 	background: cover;
 } */
+.skills,
+.projects {
+	background-color: rgba(226, 232, 240, 0.1);
+}
 #projects,
 #skills,
 #about {
