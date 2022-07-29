@@ -46,18 +46,6 @@ export default function Skills() {
                                 </div>
                             </div>
                         </div>
-                        <div className='skills p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                            <div>
-                                <div className='m-auto flex items-center justify-center pt-2'>
-                                    <Image
-                                        src='/images/skills/python.png'
-                                        alt='python'
-                                        width={150}
-                                        height={50}
-                                    />
-                                </div>
-                            </div>
-                        </div>
                         <div className='skills p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                             <div>
                                 <div className='m-auto flex items-center justify-center'>
@@ -66,6 +54,18 @@ export default function Skills() {
                                         alt='react'
                                         width={75}
                                         height={75}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='skills p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div>
+                                <div className='m-auto flex items-center justify-center pt-2'>
+                                    <Image
+                                        src='/images/skills/python.png'
+                                        alt='python'
+                                        width={150}
+                                        height={50}
                                     />
                                 </div>
                             </div>
