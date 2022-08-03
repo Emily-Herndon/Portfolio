@@ -6,8 +6,8 @@ import ensemble from "/public/images/projects/ensemble.png"
 
 export default function Projects() {
     return (
-        <div id="projects-nav" className="w-full mt-40">
-            <div className="max-w-[1240px]  mx-auto px-2 py-16 ">
+        <div id="projects-nav" className="w-full ">
+            <div className="max-w-[1240px] mt-40 mx-auto px-2 py-16 ">
                 <div id="projects" className="text-center rounded-xl px-2 py-4 lg:p-8 justify-center items-center shadow-xl shadow-black">
                     <p className="tracking-widest text-gray-700 text-xs">Things I&apos;ve Built</p>
                     <h1>Main Projects</h1>
