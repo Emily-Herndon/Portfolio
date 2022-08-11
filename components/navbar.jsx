@@ -17,22 +17,22 @@ export default function Navbar() {
 				<span id="initials" className="self-center text-2xl font-semibold whitespace-nowrap text-white">EH</span>
 				<div>
 					<ul className="hidden md:flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-						<Link href="/#main-nav" >
+						<Link href="/#main" >
 							<li className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">
 								Home
 							</li>
 						</Link>
-						<Link href="/#about-nav">
+						<Link href="/#about">
 							<li className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								About Me
 							</li>
 						</Link>
-						<Link href="/#skills-nav">
+						<Link href="/#skills">
 							<li className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								Skills
 							</li>
 						</Link>
-						<Link href="/#projects-nav">
+						<Link href="/#projects">
 							<li className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
 								Projects
 							</li>

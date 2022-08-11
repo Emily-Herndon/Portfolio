@@ -3,9 +3,9 @@ import React from 'react'
 
 export default function Skills() {
     return (
-        <div id='skills-nav' className="w-auto lg:h-screen py-4 justify-center items-center mx-auto ">
+        <div id='skills' className="w-auto lg:h-screen py-4 justify-center items-center mx-auto ">
             <div className='max-w-[1240px] h-auto mt-40 px-2 py-4 mx-auto'>
-                <div id="skills" className="p-12 rounded-xl mx-auto flex flex-col justify-center items-center shadow-xl shadow-black">
+                <div id="skills-section" className="p-12 rounded-xl mx-auto flex flex-col justify-center items-center shadow-xl shadow-black">
                     <p className="tracking-widest text-gray-700 text-xs">What I Know</p>
                     <h1>My Skills</h1>
                     <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-6'>

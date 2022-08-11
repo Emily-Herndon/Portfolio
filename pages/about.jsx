@@ -2,8 +2,8 @@ import styles from "../styles/About.module.css"
 
 export default function About() {
 	return (
-		<div id="about-nav" className="w-full mt-30 text-center py-4 px-2">
-			<div id="about" className="max-w-[1240px] w-full h-auto py-11 px-2 rounded-xl mx-auto my-auto justify-center items-center shadow-xl shadow-black">
+		<div id="about" className="w-full mt-30 text-center py-4 px-2">
+			<div id="about-section" className="max-w-[1240px] w-full h-auto py-11 px-2 rounded-xl mx-auto my-auto justify-center items-center shadow-xl shadow-black">
 				<div>
 					<p className="tracking-widest text-gray-700 text-xs">Who I Am</p>
 					<h1>About Me</h1>
