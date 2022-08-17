@@ -11,6 +11,7 @@ export default function Main() {
                         alt="a female presenting person with glasses and a beanie, in a tunnel of multi-colored lights, smiling at the camera"
                         width={200}
                         height={200}
+                    // className="border-8 border-slate-800"
                     />
                     <h1 className="text-white">{`Hi, I'm`} <span className="text-cyan-300">Emily</span></h1>
                     <h2 className="text-white">I&apos;m <span id="flip">a Software Engineer</span></h2>
