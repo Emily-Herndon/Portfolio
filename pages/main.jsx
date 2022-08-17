@@ -8,7 +8,7 @@ export default function Main() {
                 <div>
                     <Image
                         src="/images/emily-herndon.png"
-                        alt="me wearing sunglasses with the picturesque columbia river gorge behind me"
+                        alt="a female presenting person with glasses and a beanie, in a tunnel of multi-colored lights, smiling at the camera"
                         width={200}
                         height={200}
                     />
