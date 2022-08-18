@@ -4,6 +4,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs"
 import React, { useState } from "react"
 // built in link from next.js
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Navbar() {
 	const [mobileNavbar, setMobileNavbar] = useState(false)
