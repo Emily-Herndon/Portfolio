@@ -21,7 +21,7 @@ export default function Projects() {
                             <div className="hidden group-hover:block absolute top-[45%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center text-xs lg:text-base">
                                 <h2>Cat Scraps</h2>
                                 <h3 className="py-1 m-auto">Play as a cat living in a home with some messy humans. Catch the food scraps as they drop, just be sure to avoid the tummy-ache inducing cheese!</h3>
-                                <p>Built with HTML5, CSS, JavaScript, and Canvas</p>
+                                <p>Built with HTML5, CSS, JavaScript, and Canvas (Keyboard required)</p>
                                 <p className="absolute left-[50%] translate-x-[-50%] text-center bg-gradient-to-b from-blue-700 via-blue-800 to-gray-900 text-white rounded-xl w-[50%]"><a href="https://github.com/Emily-Herndon/Cat-Scraps" target="_blank" rel="noopener noreferrer">Code</a> | <a href="https://emily-herndon.github.io/Cat-Scraps/" target="_blank" rel="noopener noreferrer">Try it!</a></p>
                             </div>
                         </div>
