@@ -10,8 +10,8 @@ export default function Projects() {
             <div className="max-w-[1240px] mt-40 mx-auto px-2 py-16 ">
                 <div id="projects-section" className="text-center rounded-xl px-2 py-4 lg:p-8 justify-center items-center shadow-xl shadow-black">
                     <p className="tracking-widest text-gray-700 text-xs">Things I&apos;ve Built</p>
-                    <h1>Main Projects</h1>
-                    {/*should i keep it main? */}
+                    <h1>Projects</h1>
+
                     <div className="grid md:grid-cols-2 gap-8 mt-6">
                         <div className="projects relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl px-2 py-4 lg:p-2 group hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
                             <Image
