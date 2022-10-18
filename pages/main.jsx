@@ -2,6 +2,7 @@ import React from "react"
 import Image from "next/image"
 
 export default function Main() {
+    const labels = ["a gamer", "an animal lover", "an avid reader", "a Software Engineer"]
     return (
         <div id="main" className="w-full h-screen text-center mt-40">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
