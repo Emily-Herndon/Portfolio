@@ -49,10 +49,10 @@ export default function Navbar() {
 					<AiOutlineMenu size={25} />
 				</div>
 			</div>
-			<div className={mobileNavbar ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""}>
-				<div className={mobileNavbar ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-b from-gray-600 via-gray-700 to-black p-10 ease-in duration-500" : "fixed left-[-200%] top-0 p-10 ease-in duration-500"}>
+			<div id="div1" className={mobileNavbar ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-500" : "fixed left-[-200%] top-0 p-10 ease-in duration-500"}>
+				<div id="div2" className={mobileNavbar ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-b from-gray-600 via-gray-700 to-black p-10 ease-in duration-500" : "fixed left-[-200%] top-0 p-10 ease-in duration-500"}>
 					<div>
-						<div className="flex w-full items-center justify-between">
+						<div id="div3" className="flex w-full items-center justify-between">
 							<span id="initials" className="self-center text-xl font-semibold whitespace-nowrap text-white">EH</span>
 							<div onClick={handleMobileNav} className="rounded-full shadow-lg shadow-black p-3 cursor-pointer">
 								<AiOutlineClose />
