@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 
 export default function Main() {
-    const labels = ["a gamer", "an animal lover", "an avid reader", "a Sci-Fi Nerd", "a Software Engineer"]
+    const labels = ["Gamer", "Animal lover", "Avid reader", "Sci-Fi Nerd", "Software Engineer"]
     return (
         <div id="main" className="w-full h-screen text-center mt-40">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
@@ -14,8 +14,8 @@ export default function Main() {
                         height={200}
                     // className="border-8 border-slate-800"
                     />
-                    <h1 className="text-white">{`Hi, I'm`} <span className="text-cyan-300">Emily</span></h1>
-                    <h2 className="text-white">I&apos;m <span id="flip">a Software Engineer</span></h2>
+                    <h1 className="text-white mb-1">{"I'm Emily Herndon"}</h1>
+                    <h2 className="text-white" id="flip">Software Engineer</h2>
                     <p className="py-4 m-auto max-w-[70%] text-xl text-white">I have an intellectual curiosity, love for learning, and the ability to work both independently and collaboratively. I am passionate about developing accessible products to better {`people's`} lives and enjoy solving complex puzzles. I believe software engineering is a conduit to create a positive and meaningful impact. I strive to make products with accessible, unique interfaces and adaptability for the ever-changing future.</p>
                 </div>
             </div>
