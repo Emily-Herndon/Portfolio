@@ -144,6 +144,19 @@ export default function Skills() {
                                 </div>
                             </div>
                         </div>
+                        <div className='skills p-5 flex shadow-xl rounded-xl hover:scale-105 ease-in duration-300 items-center justify-center'>
+                            <div className='m-auto py-4'>
+                                <div className='m-auto flex items-center justify-center'>
+                                    <Image
+                                        src='/images/skills/jQuery.png'
+                                        alt='jQuery'
+                                        width={450}
+                                        height={60}
+                                        className=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
