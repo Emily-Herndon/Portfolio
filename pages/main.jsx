@@ -3,6 +3,9 @@ import Image from "next/image"
 
 export default function Main() {
     const labels = [" Gamer", "n Animal lover", "n Avid reader", " Sci-Fi Nerd", " Software Engineer"]
+    // step 1: implement flipping animation
+    // step 2: iterate through labels array
+    // step 3: after iteration is finished, transition from flip card imagery to solid phrase that blends with rest of app
     return (
         <div id="main" className="w-full h-screen text-center mt-40">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
