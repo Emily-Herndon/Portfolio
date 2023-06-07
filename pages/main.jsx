@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 
 export default function Main() {
-    const labels = [" Gamer", "n Animal lover", "n Avid reader", " Sci-Fi Nerd", " Software Engineer"]
+    const labels = [" Gamer", "n Animal Lover", "n Avid Reader", " Sci-Fi Nerd", " Software Engineer"]
     // step 1: implement flipping animation
     // step 2: iterate through labels array
     // step 3: after iteration is finished, transition from flip card imagery to solid phrase that blends with rest of app
