@@ -64,16 +64,16 @@ export default function Navbar() {
 					</div>
 					<div className="py-4 flex flex-col">
 						<ul>
-							<Link href="/#main-nav">
+							<Link href="/#main">
 								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Home</li>
 							</Link>
-							<Link href="/#about-nav">
+							<Link href="/#about">
 								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">About Me</li>
 							</Link>
-							<Link href="/#skills-nav">
+							<Link href="/#skills">
 								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Skills</li>
 							</Link>
-							<Link href="/#projects-nav">
+							<Link href="/#projects">
 								<li onClick={handleMobileNav} className="py-4 text-sm  text-white">Projects</li>
 							</Link>
 						</ul>
